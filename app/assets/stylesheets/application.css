@@ -13,3 +13,63 @@
  *= require_tree .
  *= require_self
  */
+
+ .header {
+  background-color: rgb(248, 249, 250);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 15px 0 15px;
+ }
+
+ .new-flat-link {
+  text-decoration: none;
+  border: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 5px 10px;
+ }
+
+ .container {
+
+  margin-top: 25px;
+ }
+
+ .flat-individual {
+  background-color: #f8f9fa;
+  padding: 25px;
+  width: 350px;
+ }
+
+ .people-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .more-info-link {
+  text-decoration: none;
+  margin-left: 20px;
+ }
+
+ .more-info {
+  height: 50px;
+  display: flex;
+  align-items: center;
+ }
+
+ .card-individual {
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  width: 350px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+ }
+
+ .all-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: flex-start;
+  margin-top: 20px;
+ }
