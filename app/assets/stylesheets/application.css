@@ -73,3 +73,16 @@
   justify-content: flex-start;
   margin-top: 20px;
  }
+
+ .form-container {
+  width: 450px;
+  background-color: #f8f9fa;
+  padding: 25px;
+  margin: 0 auto;
+  margin-top: 25px;
+ }
+
+ .link-to-flats {
+  text-decoration: none;
+  color: black;
+ }

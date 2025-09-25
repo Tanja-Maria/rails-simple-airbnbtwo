@@ -20,6 +20,10 @@
   </head>
 
   <body>
+    <div class="header">
+      <h4><%= link_to "Simple Airbnb", flats_path, class: "link-to-flats"%></h4>
+      <%= link_to "Add Flat", new_flat_path, class: "new-flat-link" %>
+    </div>
     <%= yield %>
   </body>
 </html>

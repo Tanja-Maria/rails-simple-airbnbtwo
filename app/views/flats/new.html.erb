@@ -1,1 +1,14 @@
-<h1>Simple form</h1>
+
+
+  <div class="form-container">
+    <h1>Add a new flat</h1>
+    <%= simple_form_for @flat do |f| %>
+      <%= f.input :name, label: "Name" %>
+      <%= f.input :address, label: "Address" %>
+      <%= f.input :description, as: :text %>
+      <%= f.input :number_of_guests, label: "Number of guests" %>
+      <%= f.input :price_per_night, label: "Price per night (€)" %>
+      <%= f.button :submit, "Create Flat", class: "btn btn-primary" %>
+      <%= link_to "Cancel", flats_path, class: "btn btn-danger" %>
+    <% end %>
+  </div>
